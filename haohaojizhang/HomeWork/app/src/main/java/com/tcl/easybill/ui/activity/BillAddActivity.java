@@ -142,10 +142,6 @@ public class BillAddActivity extends BaseActivity implements BillView {
         days = DateUtils.getCurDateStr("yyyy-MM-dd");
         simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");// HH:mm:ss
         Date date = new Date(System.currentTimeMillis());
-        if (simpleDateFormat.format(date).equals(days)) {
-            dateTv.setText("今天");
-        } else {
-            dateTv.setText(days);
 
         }
     }
