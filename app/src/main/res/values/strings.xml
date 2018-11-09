@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">toolbardemo</string>
+    <string name="from">左</string>
+    <string name="to">右</string>
+</resources>
